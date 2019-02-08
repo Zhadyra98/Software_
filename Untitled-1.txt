@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    string penkin;
+    string calculus;
+    cin>>penkin;
+    cin>>calculus;
+    cout<<penkin<<" "<<calculus;
+    return 0;
+}

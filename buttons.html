@@ -1,0 +1,71 @@
+<html>
+    <style>
+    div button{
+        display: inline-block;
+    } 
+    .line{
+        display: inline;
+        margin-left:0px;
+        display: table-cell;
+    
+    }
+    .btn{
+        height: 70px;
+        display: block;
+        text-align: center;
+        margin-top:10px;
+        margin-right:50px;
+        float:left;
+    }
+    .bred{
+        background-color:red;
+    }
+    .byellow{
+        background-color:yellow;
+    }
+    .bgreen{
+        background-color:green;
+    }
+    .bbig{
+        width:220px;
+    }
+    .bnorm{
+        width:150px;
+    }
+    .bsmall{
+        width:70px;
+    }
+    .bhov:hover{
+        background-color: grey;
+        box-shadow: 10px 10px 5px #334455;
+    }
+    .bactive:active{
+        background-color: #3e8e41;
+        transform: translateY(4px);
+    }
+    .bpoint{
+        cursor: pointer;
+    }
+    </style>
+    <head><title>Buttons </title></head>
+    <body>
+        <h1>Buttons with different styles</h1>
+        <ul><div class="line">
+                <button class=" btn bred bsmall bhov"></button>
+                <button class="btn bred bnorm bpoint "></button>
+                <button class="btn bred bbig bactive "></button>
+        </div></ul>
+  
+        <ul><div class="line">
+                <button class=" btn byellow bsmall bhov">></button>
+                <button class=" btn byellow bnorm bpoint">></button>
+                <button class=" btn byellow bbig bactive">></button>
+        </div></ul>
+
+        <ul><div class="line">
+                <button class=" btn bgreen bsmall bhov">></button>
+                <button class=" btn bgreen bnorm bpoint">></button>
+                <button class=" btn bgreen bbig bactive">></button>
+        </div></ul>         
+    </body>
+</html>
