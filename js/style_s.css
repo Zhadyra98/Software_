@@ -1,9 +1,9 @@
 #slider-wrap{ /* Оболочка слайдера и кнопок */
-	width:960px; 
+	width:1100px; 
 	}
 #slider{ /* Оболочка слайдера */
-	width:900px;
-	height:400px;
+	width:1100px;
+	height:450px;
 	overflow: hidden;
 	border:#eee 10px;
 	position:relative;}
