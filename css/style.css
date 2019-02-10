@@ -4,8 +4,8 @@
 	padding: 0;
 }
 .center{
-	width: 1170;
-	margin: 0 auto:;
+	width: 1170px;
+	margin: 0 auto;
 }
 .main_menu{
 	background-color: #e0d1e0;
@@ -33,4 +33,22 @@
 }
 .main_menu nav a.active:hover{
 	text-decoration: none;
+}
+.logo_section{
+	text-align: center;
+	padding: 15px 0px 15px;
+}
+.logo_section img{
+
+}
+.slide{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.slide img{
+	flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
