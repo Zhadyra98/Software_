@@ -106,3 +106,25 @@ ins{
 	font-family: "Verdana";
 	margin-top: 13px;
 }
+.to_action{
+	font-family: "Verdana";
+	background-color:#b366ff;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	padding:0px 0 0px;
+}
+.to_action a{
+	font-size: 40px;
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.to_action .center{
+	background: url('../img/lg.png') no-repeat left center, url('../img/lg.png') no-repeat right center;
+}
+.to_action p{
+	margin-top: 12px;
+	letter-spacing: 1px;
+}
