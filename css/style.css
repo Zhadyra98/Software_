@@ -128,3 +128,31 @@ ins{
 	margin-top: 12px;
 	letter-spacing: 1px;
 }
+.about{
+	margin-top: 9px;
+}
+.about .left{
+	width: 667px;
+}
+.about .left h2{
+	font-family: "Verdana";
+	font-size: 36px;
+	margin-bottom: 19px;
+}
+.about .left img{
+	float: left;
+	margin-right: 30px;
+	
+}
+.about .left h3{
+	font-size:20px;
+	line-height:20px;
+	font-family:"Verdana";
+	margin-bottom: 16px;
+}
+.about .left p{
+	font-size:14px;
+	line-height:20px;
+	font-family: "Verdana";
+	margin-bottom: 16px;
+}
