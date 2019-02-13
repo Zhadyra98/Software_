@@ -156,3 +156,90 @@ ins{
 	font-family: "Verdana";
 	margin-bottom: 16px;
 }
+.about .right{
+	width: 370px;
+}
+.about .center{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
+	justify-content: space-between;
+}
+.about .right h2{
+	font-family: "Verdana";
+	font-size: 36px;
+	margin-bottom: 19px;
+}
+.about .right ol li{
+	list-style: none;
+	position: relative;
+	padding-left: 58px;
+	margin-bottom: 20px;
+}
+.about .right ol li span{
+	font-size:20px;
+	line-height:20px;
+	font-family:"Verdana";
+	margin-bottom: 16px;
+}
+.about .right ol li p{
+	font-size:14px;
+	line-height:20px;
+	font-family: "Verdana";
+}
+.about .right ol{
+	counter-reset: myCounter;
+}
+.about .right ol li:before{
+	content: counter(myCounter);
+	counter-increment: myCounter;
+	width: 45px;
+	height: 45px;
+	background:#b366ff;
+	font-size: 36px;
+	font-family: "Verdana";
+	position: absolute;
+	left: 0; top: 0;
+	text-align: 45px;
+}
+.testimonials{
+	margin-top: 55px;
+	padding-bottom: 110px;
+}
+.testimonials h2{
+	font-family: "Verdana";
+	font-size: 36px;
+	margin-bottom: 19px;
+}
+.testimonials ul {
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
+	justify-content: space-between;
+}
+.testimonials ul li{
+	width: 370px;
+	height: 207px;
+	background: #e5e5e7;
+	padding: 61px 48px 10px 46px;
+}
+.testimonials ul li p{
+	font-family: "Verdana";
+	font-style: italic;
+	font-size: 14px;
+	line-height: 20px;
+	color: #878787;
+	position: relative;
+}
+.testimonials ul li span{
+	font-size: 18px;
+	color:#727171;
+	display: block;
+	text-align: right;
+	margin-top: 20px;
+}
