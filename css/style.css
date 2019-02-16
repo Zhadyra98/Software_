@@ -7,6 +7,9 @@
 ins{
 	text-decoration: none;
 }
+h1, h2, h3, h4{
+	font-weight: normal;
+}
 .center{
 	width: 1170px;
 	margin: 0 auto;
@@ -283,3 +286,128 @@ ins{
 	height: 50px;
 	background:url('../img/icon.png');
 } */
+.contacts h2{
+	font-family: "Verdana";
+	font-size: 36px;
+	margin-bottom: 42px;
+}
+.contacts .maps{
+	height: 400px;
+}
+.contacts .contact_info {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
+	justify-content: space-between;
+	margin-top: 22px;
+	padding-bottom: 77px;
+
+}
+.contacts .contact_info h2{
+	font-family: "Verdana";
+	font-size: 36px;
+	margin-bottom: 42px;
+}
+.contacts .contact_info .left{
+	width:480px;
+}
+.contacts .contact_info .right{
+	width: 570px;
+}
+.contacts .contact_info .left p{
+	font-size:16px;
+	line-height:20px;
+	font-family:"Verdana";
+	margin-top: 22px;
+}
+.contacts .contact_info .right form input[type="text"]{
+	background: transparent;
+	border:1px solid #f0eeee;
+	width:180px;
+	padding-left: 26px;
+}
+.contacts .contact_info .right h2{
+	margin-bottom: 30px;
+}
+.contacts .contact_info .right form input[type="Email"]{
+	background: transparent;
+	border:1px solid #f0eeee;
+	width: 190px;
+	height: 40px;
+	padding-left: 26px;
+}
+.contacts .contact_info .right .flex{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.contacts .contact_info .right form textarea{
+	padding: 13px;
+	border:1px solid #f0eeee;
+	font-size: 16px;
+	color:#000;
+	height: 143px;
+	width:100%;
+	padding: 25px;
+}
+.contacts .contact_info .right input[type="submit"],.contacts .contact_info .right input[type="reset"]{
+	width: 97px;
+	height: 35px;
+	background: #b366ff;
+	font-size: 16px;
+	color:#fff;
+	border: 0;
+	margin-top: 23px;
+	cursor: pointer;
+	transition: .2s;
+	margin-left: 4px;
+} 
+.contacts .contact_info .right input[type="submit"]:hover,
+.contacts .contact_info .right input[type="reset"]:hover{
+	color:#b366ff;
+	background: #e0d1e0;
+}
+.contacts .contact_info .right .btns{
+	text-align: right;
+}
+.h2{
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+.h2 span{
+	color:#b366ff;
+}
+.h2:before{
+	content: '';
+	width: 56px;
+	height: 2px;
+	background: #b366ff;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+.popular{
+	background: #f2f2f2;
+	padding-top: 30px;
+	height: 1000px;
+}
+.tab_btns{
+	position:absolute;
+	top:210px;
+	right: 20px;
+}
+.tab_btns a{
+	display: inline-block;
+	margin-left: 56px;
+	padding: 0 16px;
+}
+.tab_btns a.active{
+	border-bottom: 5px solid #b366ff;
+}
