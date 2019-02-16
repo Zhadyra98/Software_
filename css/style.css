@@ -243,3 +243,43 @@ ins{
 	text-align: right;
 	margin-top: 20px;
 }
+.products h2{
+	font-family: "Verdana";
+	font-size: 36px;
+	margin-bottom: 42px;
+}
+.products{
+	margin-top: 9px;
+	padding-bottom: 
+}
+.products ul{
+	list-style: none;
+	margin-bottom: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
+	justify-content: space-between;
+}
+.products ul li a{
+	display: inline-block;
+	position: relative;
+}
+/* .products ul li a:before{
+	content: '';
+	position: absolute;
+	top:0; bottom: 0;
+	left: 0; right: 0;
+	background: rgba(0,0,0, .7);
+}
+.products ul li a:after{
+	content: '';
+	position: absolute;
+	top:0; bottom: 0;
+	left: 0; right: 0;
+	margin: auto;
+	width:50px;
+	height: 50px;
+	background:url('../img/icon.png');
+} */
