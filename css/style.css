@@ -398,16 +398,39 @@ h1, h2, h3, h4{
 	padding-top: 30px;
 	height: 1000px;
 }
-.tab_btns{
+.pop_tab_btns{
 	position:absolute;
 	top:210px;
 	right: 20px;
 }
-.tab_btns a{
+.pop_tab_btns a{
 	display: inline-block;
 	margin-left: 56px;
 	padding: 0 16px;
 }
-.tab_btns a.active{
+.pop_tab_btns a.active{
 	border-bottom: 5px solid #b366ff;
+}
+.pop_all_tabs_block{
+	margin-top: 50px;
+}
+.pop_all_tabs_block ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-flow:wrap;
+	flex-flow:wrap;
+	list-style: none;
+}
+.pop_all_tabs_block ul li{
+	width: 25%;
+	background: #fff;
+	border: 1px solid #f1f1f1;
+	padding: 26px 26px 15px 26px;
+	cursor: pointer;
+	-webkit-transition:.4s;
+	transition: .4s;
+}
+.pop_all_tabs_block ul li:first-child{
+	width:50%;
 }
