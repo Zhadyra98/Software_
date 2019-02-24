@@ -1,5 +1,5 @@
 (function ($) {
-var hwSlideSpeed = 700;
+var hwSlideSpeed = 1500;
 var hwTimeOut = 3000;
 var hwNeedLinks = true;
 
